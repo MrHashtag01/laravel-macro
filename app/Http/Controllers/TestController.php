@@ -10,6 +10,6 @@ class TestController extends Controller
         $collection = collect([1, 2, 3, 4, 5]);
         $average = $collection->averageValue(); // returns 3
 
-       dd($average);
+       // change 1
     }
 }
